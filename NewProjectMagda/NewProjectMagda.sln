@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "NewProjectMagda", "NewProjectMagda\NewProjectMagda.dtproj", "{E83C679F-A1D1-4EC4-8AB0-AF84BF3EFDF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83C679F-A1D1-4EC4-8AB0-AF84BF3EFDF6}.Development|Default.ActiveCfg = Development
+		{E83C679F-A1D1-4EC4-8AB0-AF84BF3EFDF6}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C4B7047-5C25-44A9-9E17-914CFD9613E1}
+	EndGlobalSection
+EndGlobal
