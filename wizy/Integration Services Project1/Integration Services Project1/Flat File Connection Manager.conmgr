@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{C8DB291E-428F-46C2-BE46-9A814C78E62F}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1045"
+      DTS:HeaderRowDelimiter="_x003B_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter="_x000A_"
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1250"
+      DTS:ConnectionString="D:\Users\magdalena.stoler\Desktop\70767DataWarehouse-master\Lesson06 SSIS Basics02\_dane\WizyWydane.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="10"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OSG"
+          DTS:DTSID="{828FF46D-9F25-4C3D-844A-6455AA733AEC}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PSG"
+          DTS:DTSID="{6BADD2A3-29FA-45C9-A84D-3764FF1B9338}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Obywatelstwo"
+          DTS:DTSID="{42FEFA32-A747-426E-A7DE-8C7F293424EC}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="3"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Symbol"
+          DTS:DTSID="{088F13FF-E346-4993-9123-8014AB812E3F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="VSSchengen"
+          DTS:DTSID="{CD546CE7-E7DF-4443-AF52-3812C0485184}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="VSPolska"
+          DTS:DTSID="{B2F29AF5-AA63-4EDF-BE53-C248D053B794}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="NaklejkiVD"
+          DTS:DTSID="{853D7D57-9A1C-4F7F-80DA-6E5D5E2653AE}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:DataType="3"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ZastnaklejkiVC"
+          DTS:DTSID="{F97947F6-343A-4311-8B03-B55B49EDFA22}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
