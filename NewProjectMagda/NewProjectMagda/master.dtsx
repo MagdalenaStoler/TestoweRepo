@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="master"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{C8A69FD0-8544-4EFB-AB22-0392D731837F}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{ACDEC15E-CF55-4B8A-97FF-ED2A0776B7AB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -35,13 +35,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Execute Package Task 1"
+      DTS:refId="Package\Execute Package Task A"
       DTS:CreationName="Microsoft.ExecutePackageTask"
       DTS:Description="Execute Package Task"
       DTS:DTSID="{B78DD662-F984-4310-BC6C-AEEB7A3FB23F}"
       DTS:ExecutableType="Microsoft.ExecutePackageTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute Package Task 1"
+      DTS:ObjectName="Execute Package Task A"
       DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -60,7 +60,7 @@
       DTS:From="Package\Execute Package Task"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
-      DTS:To="Package\Execute Package Task 1" />
+      DTS:To="Package\Execute Package Task A" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -79,8 +79,8 @@
           Id="Package\Execute Package Task"
           TopLeft="195.5,175.5" />
         <NodeLayout
-          Size="192,42"
-          Id="Package\Execute Package Task 1"
+          Size="193,42"
+          Id="Package\Execute Package Task A"
           TopLeft="190,280" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
